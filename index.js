@@ -17,22 +17,22 @@ var family = [steve, bob, sussie, beth, granSmith];
 
 for(var i = 0; i < family.length; i++)
 {
-	console.log(family[i].firstName + ": " + family[i].favoriteSong);
+	console.log(family[i].firstName + ": " + family[i].favoriteTVShow);
 }
 
 window.onload = function()
 {
 	console.log("");
 
-	steve.favoriteSong = "Generic Country Song #3";
-	bob.favoriteSong = "Spongebob Theme";
-	sussie.favoriteSong = "ABCs";
-	beth.favoriteSong = "Hello Darkness (trap remix)";
-	granSmith.favoriteSong = "Ride of the Valkyries";
+	steve.favoriteTVShow = "The Twilight Zone";
+	bob.favoriteTVShow = "Spongebob";
+	sussie.favoriteTVShow = "Dora v2";
+	beth.favoriteTVShow = "Cooking show";
+	granSmith.favoriteTVShow = "Football";
 
 	for(var i = 0; i < family.length; i++)
 	{
-		console.log(family[i].firstName + ": " + family[i].favoriteSong);
+		console.log(family[i].firstName + ": " + family[i].favoriteTVShow);
 	}
 }
 
